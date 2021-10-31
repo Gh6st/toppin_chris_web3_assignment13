@@ -1,0 +1,32 @@
+.row div {
+  background-color: grey;
+  border-style: solid;
+  border-color: white;
+  padding: 0;
+}
+
+.nav.nav-sidebar li a {
+  color: white;
+}
+
+.row img {
+  width: 100%;
+}
+
+.row .stretch img, .row .stretch-always img {
+  height: 100%;
+  width: auto;
+  margin-left: -20%;
+}
+
+@media screen and (max-width: 767px) {
+  .row .stretch img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
+.row .stretch, .row .stretch-always {
+  overflow: hidden;
+}

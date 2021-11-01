@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Affordances</title>
+    <title>Design Solution</title>
 
     <!-- Bootstrap -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -27,31 +27,33 @@
           <a class="nav-item nav-link" href="index.html">Discoverability</a>
           <a class="nav-item nav-link" href="feedback.html">Feedback</a>
           <a class="nav-item nav-link" href="conceptualmodel.html">Conceptual Model</a>
-          <a class="nav-item nav-link active" href="affordances.html">Affordances</a>
+          <a class="nav-item nav-link" href="affordances.html">Affordances</a>
           <a class="nav-item nav-link" href="signifiers.html">Signifiers</a>
           <a class="nav-item nav-link" href="mappings.html">Mappings</a>
           <a class="nav-item nav-link" href="constraints.html">Constraints</a>
-          <a class="nav-item nav-link" href="designsolution.html">Design Solution</a>
+          <a class="nav-item nav-link active" href="designsolution.html">Design Solution</a>
         </div>
       </div>
     </nav>
   </header>
   <body>
-    <div id="container-override" class="container">
+    <div id="container-override" class="container-fluid">
       <h1>Chris Toppin UX Case Study</h1>
+        <div class="row">
+          <h2>Problem</h2>
+            <p>Users familiar with the share component in Safari on IOS have a conceptual model of how to share or add a website to favorites on IOS. The steps to add a webpage to Favorites in Safari on IOS goes like this: visit the website, hit the share icon, scroll down, and hit “Add to Favorite.” Having this task model in mind, users will carry it over to Safari on Mac thinking, that it will be as easy as doing it on IOS because of this mental model, users are in for a big headache trying to add a website to favorites on Mac as the “Add to Favorites” feature does not live under the share icon on Safari on Mac. Instead, the “Add to Favorites” on Mac lives under the “Add to Reading List” sheet icon that is un-discoverable and requires a different gesture to access it. This inconsistency results in a bad user experience for users using Safari across devices.
+            </p>
 
-      <div class="row">
-      <h2>Affordances</h2>
-        <p>Affordances as the name implies, afford you to do something if you can. It is the relationship between the user and the object. If the features of the object and the capabilities of the user align, it affords that user to do the task.
-        </p>
-      <h2>Example</h2>
-        <p>My example for affordances is a hook hanger. The upward curve of the hooks affords/indicates that someone can hang things here.
-        </p>
-          <div class="stretch col-12 col-md-12"><img src="../assets/images/affordances.jpg" alt="Image showing a coat hanger.">
-          </div>
+            <div class="stretch-always col-6"><img src="../assets/images/IOS_ShareSheet.png" alt="Image showing a toaster oven.">
+            </div>
+            <div class="stretch-always col-6"><img src="../assets/images/IOS_ShareSheet.png" alt="Image showing a toaster oven.">
+            </div>
+
+          <h2>Design Solution</h2>
+            <p>I would fix this problem by making the share sheet in Safari consistent across all devices by placing the “Add to Favorite” under the share sheet on all devices.
+            </p>
         </div>
-  </div>
-
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

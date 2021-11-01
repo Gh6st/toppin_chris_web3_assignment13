@@ -25,6 +25,7 @@
   padding-right: 350px;
   padding-bottom: 0px;
 }
+
 .col-12{
   width: 100%;
   height: 100%;
@@ -32,12 +33,37 @@
   padding: 0;
   padding-top: 25px;
 }
+
 .row .stretch img, .row .stretch-always img{
   width: 10%;
   height: 10%
   padding: 0;
 }
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #666;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: #3944bc;
+}
+}
+
+header {
+  text-align: center;
+}
 
 @media screen and (max-width: 1200px) {
 

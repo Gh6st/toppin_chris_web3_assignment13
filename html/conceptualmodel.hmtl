@@ -26,8 +26,8 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="index.html">Discoverability</a>
           <a class="nav-item nav-link" href="feedback.html">Feedback</a>
-          <a class="nav-item nav-link" href="conceptualmodel.html">Conceptual Model</a>
-          <a class="nav-item nav-link active" href="affordances.html">Affordances</a>
+          <a class="nav-item nav-link active" href="conceptualmodel.html">Conceptual Model</a>
+          <a class="nav-item nav-link" href="affordances.html">Affordances</a>
           <a class="nav-item nav-link" href="signifiers.html">Signifiers</a>
           <a class="nav-item nav-link" href="mappings.html">Mappings</a>
           <a class="nav-item nav-link" href="constraints.html">Constraints</a>
@@ -37,18 +37,18 @@
   </header>
   <body>
     <div class="container">
-    <div class="row">
-      <h2>Affordances</h2>
-        <p>Affordances as the name implies, afford you to do something if you can. It is the relationship between the user and the object. If the features of the object and the capabilities of the user align, it affords that user to do the task.
-        </p>
-      <h3>Example</h3>
-        <p>My example for affordances is a hook hanger. The upward curve of the hooks affords/indicates that someone can hang things here.
-        </p>
-          <div class="stretch col-12 col-md-12"><img src="../assets/images/affordances.jpg" alt="Image showing a coat hanger.">
+      <h1>Chris Toppin UX Case Study</h1>
+      <div class="row">
+        <h2>Conceptual Model</h2>
+          <p> A conceptual model is a representation of how a product works and behaves.
+          </p>
+        <h3>Example</h3>
+          <p>An example of a conceptual model is the share icon/sheet in Apple IOS. The icon is the same across all Apple devices, making it recognizable and usable to the user no matter what device they are using. It also behaves the same way across their devices. To share something, you hit the share icon and select your place of choice. Simple as that.
+          </p>
+            <div class="stretch col-12 col-md-12"><img src="../assets/images/conceptual_model.png" alt="Image showing a screenshot of the sharesheet on IOS.">
+            </div>
           </div>
         </div>
-  </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
